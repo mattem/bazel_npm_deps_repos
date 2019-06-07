@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "paths": {
+            "@ev/*": [
+                "ev/tooling/*"
+            ],
+            "@mediator/*": [
+                "ev/tooling/*"
+            ]
+        }
+    }
+}
